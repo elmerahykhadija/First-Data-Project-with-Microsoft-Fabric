@@ -1,1 +1,1 @@
-# -First-Data-Project-with-Microsoft-Fabric-
+# First-Data-Project-with-Microsoft-Fabric
