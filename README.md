@@ -42,6 +42,18 @@ API USGS Earthquake
 [Dashboard / Power BI ]
 ```
 
+### Affichage du lineage dans Microsoft Fabric
+
+Le lineage permet de visualiser les dépendances entre les composants du projet dans l’interface Microsoft Fabric. Il montre clairement comment les données migrent de la source vers le Lakehouse, puis vers les couches Silver et Gold avant d’être consommées par le dashboard.
+
+![Lineage Microsoft Fabric](imgs/lineage.png)
+
+Le lineage est très utile pour :
+- suivre le flux de données dans le projet,
+- vérifier les dépendances entre notebooks et tables,
+- identifier les sources de données et les transformations appliquées,
+- faciliter la maintenance et la gouvernance des données.
+
 ---
 
 ## Prérequis
